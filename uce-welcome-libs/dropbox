@@ -12,10 +12,10 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
 
   Homepage: https://www.dropbox.com
 
-  Would like to run Dropbox and automatically start each time you log on?
+  Would like to install and configure Dropbox to start automatically each time you log on?
 
 
-      add dropbox.desktop to your ~/.config/autostart folder ?
+      apt-get install dropbox && add dropbox.desktop to your ~/.config/autostart folder ?
 
 
   Hit any key to add Dropbox to your autostart folder, or \"s\" to skip..."
@@ -23,6 +23,8 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
 read -n1 a
 a=`echo $a | tr '[A-Z]' '[a-z]'`
 if [ "$a" != "s" ]; then
+    apt-get install dropbox
     cp /usr/share/applications/dropbox.desktop ~/.config/autostart
     dropbox start -i &> /dev/null &
 fi
+

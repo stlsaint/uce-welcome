@@ -1,0 +1,22 @@
+clear
+
+echo "  -----------------------------[ screen $STEP of $STEPS ]----------------------------
+
+  INSTALL MEDIA TOOLS
+  -----------------------------
+  Would you like to install the media tools that could not be included by default?
+  If you choose to do this, the following packages will be installed:
+
+      ubuntu-restricted-extras flashplugin-installer
+      
+
+  Note: additional packages listed as dependencies may also be installed.
+
+  Hit any key to install media tools, or \"s\" to skip..."
+
+read -n1 a
+a=`echo $a | tr '[A-Z]' '[a-z]'`
+if [ "$a" != "s" ]; then
+    echo ""
+    sudo apt-get install -y ubuntu-restricted-extras flashplugin-installer
+fi

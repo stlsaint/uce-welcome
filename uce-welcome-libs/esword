@@ -1,0 +1,26 @@
+clear
+
+echo "  -----------------------------[ screen $STEP of $STEPS ]----------------------------
+
+  ESWORD
+  ---------------
+  By default, UCE does not come with esword as it is a proprietary application and it is a non-linux native application..
+
+  Would you like to install ESWORD now? It will run via wine.
+
+    esword-install   
+
+  You will be promted for your administrator password, so please
+  have it ready.
+
+  Note: additional packages listed as dependencies may also be installed.
+
+  Hit any key to install Skype, or \"s\" to skip..."
+
+
+read -n1 a
+a=`echo $a | tr '[A-Z]' '[a-z]'`
+if [ "$a" != "s" ]; then
+    echo ""
+    sudo 'esword-install'
+

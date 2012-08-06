@@ -33,7 +33,7 @@ fi
 
 # Vars
 #LIBDIR="./uce-welcome-libs"
-LIBDIR="/usr/share/uce/uce-welcome/uce-welcome-libs"
+LIBDIR="/usr/lib/uce-welcome-libs"
 STEP="0"
 STEPS=`ls -1 $LIBDIR | wc -l`
 #Internet connection not counted as step, so -1
@@ -41,13 +41,18 @@ STEPS=$((STEPS-1))
 
 
 # Run through steps
+
 STEP=$((STEP+1))
 . $LIBDIR/intro
 
 . $LIBDIR/check-internet-connection
 
+
 STEP=$((STEP+1))
 . $LIBDIR/apt-update
+
+STEP=$((STEP+1))
+. $LIBDIR/media
 
 STEP=$((STEP+1))
 . $LIBDIR/install-skype
