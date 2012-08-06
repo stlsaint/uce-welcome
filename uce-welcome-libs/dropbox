@@ -23,8 +23,8 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
 read -n1 a
 a=`echo $a | tr '[A-Z]' '[a-z]'`
 if [ "$a" != "s" ]; then
-    apt-get install dropbox
-    cp /usr/share/applications/dropbox.desktop ~/.config/autostart
+    apt-get install nautilus-dropbox
+#    cp /usr/share/applications/nautilus-dropbox.desktop ~/.config/autostart
     dropbox start -i &> /dev/null &
 fi
 

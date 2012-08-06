@@ -19,5 +19,5 @@ read -n1 a
 a=`echo $a | tr '[A-Z]' '[a-z]'`
 if [ "$a" != "s" ]; then
     echo ""
-    sudo 'apt-get update && apt-get -y dist-upgrade'
+    sudo apt-get update && apt-get -y dist-upgrade
 fi
