@@ -6,11 +6,11 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
   ---------------
   Google has made Google Earth available for Linux users but it is not
   released under any open source licence and it is forbidden to distibute
-  it by default in Fusion Linux.
+  it by default in UCE.
 
   Would you like to install Google Earth?
 
-      yum install google-earth-stable
+      apt-get install google-earth-stable
 
   You will be promted for your administrator password, so please
   have it ready.
@@ -24,5 +24,5 @@ read -n1 a
 a=`echo $a | tr '[A-Z]' '[a-z]'`
 if [ "$a" != "s" ]; then
     echo ""
-    su - -c 'yum install -y google-earth-stable'
+    sudo 'apt-get install -y google-earth-stable'
 fi

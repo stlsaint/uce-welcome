@@ -9,17 +9,18 @@ echo "  -----------------------------[ screen $STEPS of $STEPS ]----------------
   |_|   |___|_| \_|___|____/|_| |_|_____|____/(_)
 
 
-  THANK YOU FOR USING FUSION LINUX! :)
+  THANK YOU FOR USING Ubuntu Chrisian Edition! :)
 
   If you have any questions or feedback, please come and visit us on the web:
 
-  Homepage: http://fusionlinux.org
-    Forums: http://groups.google.com/group/fusionlinux/
-      Blog: http://fusionlinux.org/blog/
+  Homepage: http://ubuntuce.com/
+    Forums:  http://ubuntuforums.org/forumdisplay.php?f=168
+     Wiki:    https://wiki.ubuntu.com/UCE
 
-  You can always run this wizard again by typing fusion-welcome in terminal
+  You can always run this setup again by typing uce-welcome in terminal
 
   Hit any key to exit..."
 
 read -n1 a
 clear
+

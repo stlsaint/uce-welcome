@@ -7,10 +7,10 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
   |  _  | |___| |___| |__| |_| |
   |_| |_|_____|_____|_____\___/ 
                               
-  Welcome to Fusion Linux! :)
+  Welcome to Ubuntu Christian Edition! :)
 
   This is an optional post-installation script, designed to help you configure
-  your new Linux installation and get the most out of Fusion Linux.
+  your new UCE installation and get the most out of your distro.
 
   You will now be presented with a series of options. You will need your
   administrator password, so please have it ready.
@@ -19,7 +19,7 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
   so already, please configure your internet connection.
 
   If you do not want to run this script now, you can run it at a later date
-  by entering the command \"fusion-welcome\" in your terminal.
+  by entering the command \"uce-welcome\" in your terminal.
 
   Hit any key to continue, or \"q\" to quit..."
 

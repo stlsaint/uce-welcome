@@ -18,7 +18,7 @@ if [ "$IS" -lt "1" ]; then
             if [ "$a" = "q" ]; then
                 clear
                 echo "Script aborted. You can run the script again at a later date by entering"
-                echo "the command \"fusion-welcome\" in your terminal."
+                echo "the command \"uce-welcome\" in your terminal."
                 echo ""
                 exit 0
             fi

@@ -10,7 +10,7 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
 
   Would you like to install Skype now?
 
-      yum install skype
+      apt-get install skype
 
   You will be promted for your administrator password, so please
   have it ready.
@@ -24,5 +24,5 @@ read -n1 a
 a=`echo $a | tr '[A-Z]' '[a-z]'`
 if [ "$a" != "s" ]; then
     echo ""
-    su - -c 'yum install -y skype'
+    sudo 'apt-get install -y skype'
 fi
