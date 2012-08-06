@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_GB]=gnome-panel-launcher
+Exec=gnome-terminal -e uce-welcome
+Categories=Application;Preferences;
+Name[en_GB]=UCE Welcome
+Name=UCE Welcome
+Icon=help-browser
