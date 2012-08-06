@@ -32,7 +32,6 @@ if [ ! -f "/home/$USER/.config/uce/uce-welcome" ]; then
 fi
 
 # Vars
-#LIBDIR="./uce-welcome-libs"
 LIBDIR="/usr/lib/uce-welcome-libs"
 STEP="0"
 STEPS=`ls -1 $LIBDIR | wc -l`
