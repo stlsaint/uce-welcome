@@ -17,6 +17,9 @@ if [ "$1" = "--firstrun" ]; then
     if [ -d /home/ubuntu ]; then
         exit 0    
     fi
+    if [ -e "/home/ubuntu" ]; then
+        exit 0   
+    fi
     if [ -e "/home/$USER/.config/uce/uce-welcome" ]; then
         exit 0   
     fi
