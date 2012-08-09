@@ -4,9 +4,8 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
 
   SKYPE
   ---------------
-  By default, Fusion Linux does not come with Skype support.  We have 
-  contacted Skype and asked for permission to have Skype client isntalled
-  by default but Skype denied our request.
+  By default, UCE does not come with Skype support. Installing skype will enable the Canonical Partner
+  repository.
 
   Would you like to install Skype now?
 

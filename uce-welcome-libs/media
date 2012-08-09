@@ -4,7 +4,7 @@ echo "  -----------------------------[ screen $STEP of $STEPS ]-----------------
 
   INSTALL MEDIA TOOLS
   -----------------------------
-  Would you like to install the media tools that could not be included by default?
+  These media tools include codecs for music and watching movies.
   If you choose to do this, the following packages will be installed:
 
       ubuntu-restricted-extras flashplugin-installer
