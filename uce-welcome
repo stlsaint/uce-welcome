@@ -59,8 +59,6 @@ STEP=$((STEP+1))
 STEP=$((STEP+1))
 . $LIBDIR/install-skype
 
-STEP=$((STEP+1))
-. $LIBDIR/install-google-earth
 
 STEP=$((STEP+1))
 . $LIBDIR/dropbox
