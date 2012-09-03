@@ -57,7 +57,7 @@ STEP=$((STEP+1))
 . $LIBDIR/media
 
 STEP=$((STEP+1))
-. $LIBDIR/install-skype
+. $LIBDIR/skype
 
 
 STEP=$((STEP+1))
